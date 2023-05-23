@@ -257,7 +257,7 @@ void DoReadDir()
 		tFSPath *path;
 		struct stat st;
 		tStat *s;
-		int nstats = 100, count = 0, i;
+		int nstats = 1024, count = 0, i;
 
 		DEBUG((MYLOG_DEBUG, "[DoReadDir]path:'%s' handle:%i", hdl->path, h));
 		s = malloc(nstats * sizeof(tStat));
