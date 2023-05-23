@@ -20,7 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef __SFTPWHO_H__
 #define __SFTPWHO_H__
 
-#define	SFTPWHO_MAXCLIENT	128 //128 x 716o = 89.5 ko
+#define	SFTPWHO_MAXCLIENT	1024 //128 x 716o = 89.5 ko
 
 #define	SFTPWHO_EMPTY		0
 #define	SFTPWHO_IDLE		1
